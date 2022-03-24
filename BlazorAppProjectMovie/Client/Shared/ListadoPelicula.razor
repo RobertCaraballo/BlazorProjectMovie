@@ -1,0 +1,51 @@
+﻿@*@foreach (var pelicula in peliculas)
+{
+    <PeliculaIndividual Pelicula="pelicula" EliminarPelicula="Eliminar" />
+}*@
+
+<ListadoGenerico Listado="peliculas">
+    <thereAreDate>
+            <PeliculaIndividual Pelicula="context" EliminarPelicula="Eliminar" />
+    </thereAreDate>
+</ListadoGenerico>
+
+
+@code {
+
+    [Parameter] public List<Pelicula> peliculas { get; set; }
+     
+    protected override void OnInitialized()
+    {
+        Console.WriteLine($"Trabajnado cn oninitialized {peliculas.Count}");
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        Console.WriteLine($"Trabajnado cn AfterREdenr: {firstRender}");
+
+
+    }
+
+    protected override void OnParametersSet()
+    {
+        Console.WriteLine($"Trabajnado cn ParametersSet {peliculas.Count}");
+    }
+
+    protected override bool ShouldRender()
+    {
+      
+        Console.WriteLine($"Trabajnado cn ShouldRender: {peliculas.Count}");
+        return true;
+    }
+
+
+
+
+    void Eliminar(Pelicula pelicula)
+    {
+        peliculas.Remove(pelicula);
+        Console.WriteLine("Se borro una pelicula");
+    }
+
+
+}

@@ -1,0 +1,38 @@
+﻿@typeparam Titem
+
+@if (Listado == null)
+{
+    @if(Cargando == null)
+    {
+        <text>Buscando peliculavghvhs</text>
+    }
+    else
+    {
+        @Cargando
+    }
+
+}
+else
+{
+
+    @foreach (var item in Listado)
+    {
+        @thereAreDate(item);
+        
+    }
+
+@*    @foreach (var pelicula in peliculas)
+    {
+        <PeliculaIndividual Pelicula="pelicula" EliminarPelicula="Eliminar" />
+    }*@
+
+}
+
+@code {
+
+    [Parameter] public RenderFragment Cargando { get; set; }
+    [Parameter] public RenderFragment<Titem> thereAreDate { get; set; }
+    [Parameter] public List<Titem> Listado { get; set;  }
+
+
+}

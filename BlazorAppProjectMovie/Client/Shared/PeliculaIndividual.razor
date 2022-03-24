@@ -1,0 +1,18 @@
+﻿
+<div>
+
+    <p>@Pelicula.Titulo</p>
+    <p>@Pelicula.Fecha_de_lazanmiento</p>
+
+    <div>
+        <button @onclick="@(() => EliminarPelicula.InvokeAsync(Pelicula))">Borrar</button>
+    </div>
+</div>
+
+
+@code {
+    [Parameter] public Pelicula Pelicula { get; set; }
+    [Parameter] public EventCallback<Pelicula> EliminarPelicula { get; set; }
+
+
+}
