@@ -1,21 +1,27 @@
-﻿@*@foreach (var pelicula in peliculas)
-{
+﻿@using BlazorAppProjectMovie.Client.Pages.Helpers
+@inject IJSRuntime js
+
+@*@foreach (var pelicula in peliculas)
+    {
     <PeliculaIndividual Pelicula="pelicula" EliminarPelicula="Eliminar" />
-}*@
+    }*@
 
 <ListadoGenerico Listado="peliculas">
     <thereAreDate>
-            <PeliculaIndividual Pelicula="context" EliminarPelicula="Eliminar" />
+        <PeliculaIndividual Pelicula="context" EliminarPelicula="Eliminar" />
     </thereAreDate>
 </ListadoGenerico>
 
+<confirmacion>
+
+</confirmacion>
 
 @code {
 
     [Parameter] public List<Pelicula> peliculas { get; set; }
-     
+
     protected override void OnInitialized()
-    {
+    {     
         Console.WriteLine($"Trabajnado cn oninitialized {peliculas.Count}");
     }
 
@@ -33,7 +39,7 @@
 
     protected override bool ShouldRender()
     {
-      
+
         Console.WriteLine($"Trabajnado cn ShouldRender: {peliculas.Count}");
         return true;
     }
@@ -41,10 +47,16 @@
 
 
 
-    void Eliminar(Pelicula pelicula)
+    async Task Eliminar(Pelicula pelicula)
     {
-        peliculas.Remove(pelicula);
-        Console.WriteLine("Se borro una pelicula");
+
+        //var confimado = await js.Confirm($"Desea borrar la peicula {pelicula.Titulo}");
+        //if (confimado)
+        //{
+        //    peliculas.Remove(pelicula);
+        //    Console.WriteLine("Se borro una pelicula");
+        //}
+
     }
 
 
