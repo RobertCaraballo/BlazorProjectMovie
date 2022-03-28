@@ -1,7 +1,10 @@
 ﻿@page "/"
+@using static BlazorAppProjectMovie.Client.Shared.MainLayout
 @inject IRepositorio Repo
 
 @code {
+
+    [CascadingParameter] private AppSatate AppSatate{ get; set; }
     //Listado Pelicula de peliculas
 
     void agregaPelicula()
@@ -42,6 +45,8 @@
     @*<span style="color:red">No hay peliculas</span>*@
 
 </ListadoPelicula>
+
+
 
 <button @onclick="agregaPelicula">Agregar nueva pelicula</button>
 

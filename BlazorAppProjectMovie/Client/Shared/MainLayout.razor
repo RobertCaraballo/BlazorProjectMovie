@@ -11,8 +11,26 @@
         </div>
 
         <article class="content px-4">
-            @Body
+
+            <CascadingValue Value="@appSatate">
+                @Body
+            </CascadingValue>
+
 
         </article>
     </main>
 </div>
+
+@code {
+
+    AppSatate appSatate = new AppSatate();
+
+    public class AppSatate
+    {
+        public string Color { get; set; } = "red";
+        public string Size { get; set; } = "12px";
+
+    }
+
+
+}

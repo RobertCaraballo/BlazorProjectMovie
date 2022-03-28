@@ -1,10 +1,10 @@
-﻿@using BlazorAppProjectMovie.Client.Pages.Helpers
-@inject IJSRuntime js
+﻿@inject IJSRuntime js
 
 @*@foreach (var pelicula in peliculas)
     {
     <PeliculaIndividual Pelicula="pelicula" EliminarPelicula="Eliminar" />
     }*@
+
 
 <ListadoGenerico Listado="peliculas">
     <thereAreDate>
@@ -12,12 +12,14 @@
     </thereAreDate>
 </ListadoGenerico>
 
-<confirmacion>
+<Component @ref="confirmacion" onAcepte="BorrarLaPelicula" OnCancel="onCancel">
+    <div>Hola</div>
+</Component>
 
-</confirmacion>
 
 @code {
 
+    Component confirmacion;
     [Parameter] public List<Pelicula> peliculas { get; set; }
 
     protected override void OnInitialized()
@@ -50,6 +52,7 @@
     async Task Eliminar(Pelicula pelicula)
     {
 
+        peliculaABorrar = pelicula;
         //var confimado = await js.Confirm($"Desea borrar la peicula {pelicula.Titulo}");
         //if (confimado)
         //{
@@ -57,6 +60,21 @@
         //    Console.WriteLine("Se borro una pelicula");
         //}
 
+    }
+
+    Pelicula peliculaABorrar;
+
+    void BorrarLaPelicula()
+    {
+        peliculas.Remove(peliculaABorrar);
+        peliculaABorrar = null;
+
+    }
+
+    void onCancel()
+    {
+        confirmacion.ocutar();
+        peliculaABorrar = null;
     }
 
 

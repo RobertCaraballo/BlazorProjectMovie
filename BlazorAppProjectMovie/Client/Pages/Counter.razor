@@ -3,7 +3,23 @@
 
 <PageTitle>Counter</PageTitle>
 
-<h1>Counter</h1>
+
+
+<h1 style="color: @AppSatate.Color; font-size : @AppSatate.Size ">Counter</h1>
+
+<div style = "display:flex;">
+    <div style="width: 100px">
+        <select @bind="@AppSatate.Color" class = "form-control" style="margin-top: 15px" >
+            <option value= "green">Verde</option>
+            <option value= "red">Rojo</option>
+        </select>
+    </div>
+    <select @bind="@AppSatate.Size">
+        <option value = "12px">12px</option>
+        <option value = "30px">30px</option>
+
+    </select>
+</div>
 
 <p>Current count: @currentCount</p>
 

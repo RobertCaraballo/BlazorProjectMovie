@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
+using static BlazorAppProjectMovie.Client.Shared.MainLayout;
 
 namespace BlazorAppProjectMovie.Client.Pages
 {
@@ -8,6 +9,7 @@ namespace BlazorAppProjectMovie.Client.Pages
         [Inject] ServiciosSingleton singlenton { get; set; }
         [Inject] ServiciosTransistorio Transistorio { get; set; }
         [Inject] IJSRuntime JS { get; set; }
+        [CascadingParameter] protected AppSatate AppSatate{ get; set; }
 
         IJSObjectReference modulo;
 

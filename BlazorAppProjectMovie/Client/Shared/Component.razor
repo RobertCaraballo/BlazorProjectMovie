@@ -1,0 +1,33 @@
+﻿@if(MostrarConfimacion){
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">@Titulo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>@ChildContent</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" @onclick="onAcepte">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" @onclick="OnCancel">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+
+    private bool MostrarConfimacion = true;
+    [Parameter] public string Titulo { get; set; } = "Validacion";
+    [Parameter] public RenderFragment ChildContent { get; set; }
+    [Parameter] public EventCallback onAcepte { get; set; }
+    [Parameter] public EventCallback OnCancel { get; set; }
+    public void mostrar() => MostrarConfimacion = true;
+    public void ocutar() => MostrarConfimacion = false;
+
+}
