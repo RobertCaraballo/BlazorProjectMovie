@@ -12,6 +12,7 @@ namespace BlazorAppProjectMovie.Client.Pages
 
 
 
+
         [CascadingParameter] protected AppSatate AppSatate{ get; set; }
 
 
