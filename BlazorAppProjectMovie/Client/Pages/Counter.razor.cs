@@ -11,6 +11,9 @@ namespace BlazorAppProjectMovie.Client.Pages
         [Inject] IJSRuntime JS { get; set; }
         [CascadingParameter] protected AppSatate AppSatate{ get; set; }
 
+
+
+
         IJSObjectReference modulo;
 
         //[Inject] IJSRuntime js
