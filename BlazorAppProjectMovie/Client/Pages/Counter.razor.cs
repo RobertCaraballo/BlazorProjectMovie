@@ -8,6 +8,7 @@ namespace BlazorAppProjectMovie.Client.Pages
     {
         [Inject] ServiciosSingleton singlenton { get; set; }
         [Inject] ServiciosTransistorio Transistorio { get; set; }
+
         [Inject] IJSRuntime JS { get; set; }
 
 
