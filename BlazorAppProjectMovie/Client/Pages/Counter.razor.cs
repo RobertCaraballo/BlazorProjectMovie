@@ -10,6 +10,8 @@ namespace BlazorAppProjectMovie.Client.Pages
         [Inject] ServiciosTransistorio Transistorio { get; set; }
         [Inject] IJSRuntime JS { get; set; }
 
+
+
         [CascadingParameter] protected AppSatate AppSatate{ get; set; }
 
 
