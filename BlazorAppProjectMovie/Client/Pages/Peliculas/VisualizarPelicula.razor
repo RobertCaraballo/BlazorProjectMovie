@@ -1,8 +1,15 @@
-﻿@page "/pelicula/"
+﻿@page "/pelicula/{PeliculaID:int}"
+@page "/pelicula/{PeliculaID:int}/{NombrePelicula}"
 
 
 <h3>VisualizarPelicula</h3>
 
 @code {
+    [Parameter] public int PeliculaID { get; set; }
+    [Parameter] public string NombrePelicula { get; set; }
 
+    protected override void OnInitialized()
+    {
+        Console.WriteLine($"La pelicula extraida es {PeliculaID}");
+    }
 }
