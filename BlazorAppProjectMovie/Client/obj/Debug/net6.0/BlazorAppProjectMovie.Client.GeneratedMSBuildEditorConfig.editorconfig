@@ -38,6 +38,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Peliculas/CrearPelicula.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFzXENyZWFyUGVsaWN1bGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Peliculas/EditarPelicula.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFzXEVkaXRhclBlbGljdWxhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Peliculas/VisualizarPelicula.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFzXFZpc3VhbGl6YXJQZWxpY3VsYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Personas/CrearPersonas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcQ3JlYXJQZXJzb25hcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Personas/EditarPersonas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcRWRpdGFyUGVyc29uYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Shared/Component.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
