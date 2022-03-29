@@ -12,72 +12,22 @@
     </thereAreDate>
 </ListadoGenerico>
 
-<Component @ref="confirmacion" onAcepte="BorrarLaPelicula" OnCancel="onCancel">
-    <div>Hola</div>
-</Component>
 
 
 @code {
 
-    Component confirmacion;
     [Parameter] public List<Pelicula> peliculas { get; set; }
-
-    protected override void OnInitialized()
-    {     
-        Console.WriteLine($"Trabajnado cn oninitialized {peliculas.Count}");
-    }
-
-    protected override void OnAfterRender(bool firstRender)
-    {
-        Console.WriteLine($"Trabajnado cn AfterREdenr: {firstRender}");
-
-
-    }
-
-    protected override void OnParametersSet()
-    {
-        Console.WriteLine($"Trabajnado cn ParametersSet {peliculas.Count}");
-    }
-
-    protected override bool ShouldRender()
-    {
-
-        Console.WriteLine($"Trabajnado cn ShouldRender: {peliculas.Count}");
-        return true;
-    }
-
-
-
 
     async Task Eliminar(Pelicula pelicula)
     {
 
-
-
-        peliculaABorrar = pelicula;
-        //var confimado = await js.Confirm($"Desea borrar la peicula {pelicula.Titulo}");
-        //if (confimado)
-        //{
-        //    peliculas.Remove(pelicula);
-        //    Console.WriteLine("Se borro una pelicula");
-        //}
+        var confimado = await js.Confirm($"Desea borrar la peicula {pelicula.Titulo}");
+        if (confimado)
+        {
+            peliculas.Remove(pelicula);
+            Console.WriteLine("Se borro una pelicula");
+        }
 
     }
-    
-    Pelicula peliculaABorrar;
-
-    void BorrarLaPelicula()
-    {
-        peliculas.Remove(peliculaABorrar);
-        peliculaABorrar = null;
-
-    }
-
-    void onCancel()
-    {
-        confirmacion.ocutar();
-        peliculaABorrar = null;
-    }
-
 
 }

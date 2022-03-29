@@ -1,16 +1,8 @@
 ﻿@page "/"
-@using static BlazorAppProjectMovie.Client.Shared.MainLayout
 @inject IRepositorio Repo
 
 @code {
 
-    [CascadingParameter] private AppSatate AppSatate{ get; set; }
-    //Listado Pelicula de peliculas
-
-    void agregaPelicula()
-    {
-        Peliculas.Add(new Pelicula() { Titulo = "anidada ahora", Fecha_de_lazanmiento = new DateTime(2017, 4, 2) });
-    }
 
     private List<Pelicula> Peliculas;
 
@@ -37,17 +29,6 @@
 
 }
 
-@* *************  Fin codigo c# *************  *@
-
-
 <ListadoPelicula peliculas="Peliculas">
 
-    @*<span style="color:red">No hay peliculas</span>*@
-
 </ListadoPelicula>
-
-
-
-<button @onclick="agregaPelicula">Agregar nueva pelicula</button>
-
-<TxtBox></TxtBox>
