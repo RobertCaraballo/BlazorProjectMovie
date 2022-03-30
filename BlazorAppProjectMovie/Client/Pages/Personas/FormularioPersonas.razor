@@ -14,10 +14,12 @@
     <div class="form-group">
         <label>Biografia:</label>
         <div>
-            <InputText class="form-control" @bind-Value="@persona.Biografia" />
-            <ValidationMessage For="@(() => persona.Biografia)" />
+            <InputDate class="form-control" @bind-Value="@persona.FechaNacimiento" />
+            <ValidationMessage For="@(() => persona.FechaNacimiento)" />
         </div>
     </div>
+
+    <button class = "btn btn-success" type = "submit"> Make Changes </button>
 
 </EditForm>
 

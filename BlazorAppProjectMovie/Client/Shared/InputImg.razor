@@ -1,0 +1,38 @@
+﻿<h3>input Img</h3>
+
+<div>
+    <label>@label</label>
+    <div>
+        <button> Select Image there! </button>
+    </div>
+</div>
+<div>
+
+    @if (imagenBase64 != null)
+   {
+       <div>
+           <div style = "margin : 10px">
+               <img src = "data:image/jpeg;base64, @posterBase64" style = "width : 400px;" />
+           </div>
+       </div>
+   }
+
+   @if (imagenTemporal != null)
+  {
+      <div>
+          <div  style="margin:10px;">
+              <img src = "@imagenTemporal" style = "width: 400px;" />
+          </div>
+      </div>
+  }
+
+
+</div>
+
+@code {
+    [Parameter] public string label { get; set; } = "Image";
+    [Parameter] public string imagenTemporal { get; set; }
+    private string imagenBase64;
+    [Parameter] public EventCallback<string> ImagenSeleccionada { get; set; }
+
+}

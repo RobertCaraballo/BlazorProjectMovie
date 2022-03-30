@@ -2,6 +2,8 @@ using BlazorAppProjectMovie.Client;
 using BlazorAppProjectMovie.Client.Repositorios;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Blazor.FileReader;
+
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
