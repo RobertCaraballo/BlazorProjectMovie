@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJvc1xFZGl0YXJHZW5lcm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Generos/FormularioGenero.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJvc1xGb3JtdWxhcmlvR2VuZXJvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Generos/IndiceGenero.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJvc1xJbmRpY2VHZW5lcm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -58,6 +62,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFzXEVkaXRhclBlbGljdWxhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Peliculas/FiltroPelicula.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFzXEZpbHRyb1BlbGljdWxhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Peliculas/VisualizarPelicula.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFzXFZpc3VhbGl6YXJQZWxpY3VsYS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,6 +76,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Personas/EditarPersonas.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcRWRpdGFyUGVyc29uYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Personas/FormularioPersonas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcRm9ybXVsYXJpb1BlcnNvbmFzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Personas/IndicePersonas.razor]

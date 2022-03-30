@@ -1,0 +1,28 @@
+﻿<h3>Formulario Personas</h3>
+
+<EditForm Model="persona" OnInvalidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+
+    <div class="form-group">
+        <label>Nombre:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@persona.Nombre" />
+            <ValidationMessage For="@(() => persona.Nombre)" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Biografia:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@persona.Biografia" />
+            <ValidationMessage For="@(() => persona.Biografia)" />
+        </div>
+    </div>
+
+</EditForm>
+
+
+@code {
+    [Parameter] public Personas persona { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+ }
