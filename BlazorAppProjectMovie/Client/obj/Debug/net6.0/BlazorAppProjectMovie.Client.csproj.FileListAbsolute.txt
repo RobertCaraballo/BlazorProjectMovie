@@ -821,3 +821,17 @@ C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMov
 C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\obj\Debug\net6.0\refint\BlazorAppProjectMovie.Client.dll
 C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\obj\Debug\net6.0\BlazorAppProjectMovie.Client.pdb
 C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\obj\Debug\net6.0\ref\BlazorAppProjectMovie.Client.dll
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\bin\Debug\net6.0\wwwroot\_framework\Tewr.Blazor.FileReader.dll
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Bcl.AsyncInterfaces.dll.gz
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\bin\Debug\net6.0\wwwroot\_framework\Tewr.Blazor.FileReader.dll.gz
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\bin\Debug\net6.0\Tewr.Blazor.FileReader.dll
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\jNAkRhMG.gz
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\t4lJxOk3.gz
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\obj\Debug\net6.0\scopedcss\Shared\InputMarkdown.razor.rz.scp.css
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\bin\Debug\net6.0\wwwroot\_framework\Markdig.dll
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\bin\Debug\net6.0\wwwroot\_framework\Markdig.dll.gz
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\bin\Debug\net6.0\Markdig.dll
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\8roAUfoP.gz
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\obj\Debug\net6.0\scopedcss\Shared\MostrarMarkdown.razor.rz.scp.css

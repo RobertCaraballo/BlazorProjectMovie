@@ -1,9 +1,29 @@
-﻿@page "/peliculas/editar"
+﻿@page "/peliculas/editar/{PeliculaID:int}"
 
+<h3>Editar Pelicula</h3>
 
+<FormularioPeliculas pelicula = "pelicula" OnValidSubmit = "Editar">
 
-<h3>EditarPelicula</h3>
+</FormularioPeliculas>
 
 @code {
+    private Pelicula pelicula = new Pelicula();
+
+    [Parameter] public int PeliculaID { get; set; }
+
+    protected override void OnInitialized()
+    {
+        pelicula = new Pelicula()
+            {
+                Id = PeliculaID,
+                Titulo = "The best movie"
+            };
+    }
+
+    public void Editar()
+    {
+        Console.WriteLine("Se edito la pelicula");
+    }
+
 
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BxZVP4lTSlZ2Ja48SUuxUvpzC2QSeBN0zgdPfzYGva+LXx5HMeT29ACsDJgUhBpZ1rOTW4VgkPm9VrtrPGf85Q==",
+  "dgSpecHash": "sPpS4VqxiPui6Pi1XIu1voSOfMMaS5CRZPLfvS+Xbg15p2Qrn8NLLpwzwYp5r04Nsg3dg4mytC9ZzNK4LpvoQQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Server\\BlazorAppProjectMovie.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\robert.caraballo\\.nuget\\packages\\markdig\\0.28.1\\markdig.0.28.1.nupkg.sha512",
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.3\\microsoft.aspnetcore.authorization.6.0.3.nupkg.sha512",
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.3\\microsoft.aspnetcore.components.6.0.3.nupkg.sha512",
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.3\\microsoft.aspnetcore.components.analyzers.6.0.3.nupkg.sha512",

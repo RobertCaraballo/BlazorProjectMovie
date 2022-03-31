@@ -1,0 +1,69 @@
+﻿<h3>FormularioPeliculas</h3>
+
+<EditForm Model="pelicula" OnInvalidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+
+    <div class="form-group">
+        <label>@label</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@pelicula.Titulo"></InputText>
+            <ValidationMessage For="@(() => pelicula.Titulo)" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>@label</label>
+        <div>
+            <InputCheckbox @bind-Value="@pelicula.EnCartelera"></InputCheckbox>
+            <ValidationMessage For="@(() => pelicula.EnCartelera)" />
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label>@label</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@pelicula.Trailer"></InputText>
+            <ValidationMessage For="@(() => pelicula.Trailer)" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>@label</label>
+        <div>
+            <InputDate class="form-control" @bind-Value="@pelicula.Fecha_de_lazanmiento"></InputDate>
+            <ValidationMessage For="@(() => pelicula.Fecha_de_lazanmiento)" />
+        </div>
+
+        <div class="form-group form-markdown">
+            <InputMarkdown @bind-Value="@pelicula.Resumen"
+                           For="@(() => pelicula.Resumen)"
+                           Label="Resumen" />
+        </div>
+
+        <div class="form-group">
+
+            <InputImg label="Foto" ImagenSeleccionada="ImagenSeleccionada" imagenTemporal=""> </InputImg>
+
+        </div>
+
+
+    </div>
+
+
+</EditForm>
+
+
+@code {
+    [Parameter] public Pelicula pelicula { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+    [Parameter] public string label { get; set; }
+
+    private void ImagenSeleccionada(string imagenBase64)
+    {
+        pelicula.Poster = imagenBase64;
+    }
+
+
+
+}

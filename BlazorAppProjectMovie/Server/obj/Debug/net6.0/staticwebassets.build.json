@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B/2QsXT0wYTs6fLfNMlgCmV4pLuqd00vTIGodHVTTKU=",
+  "Hash": "Tw0+hStNcwJ5/8C17LXIos8J5dNa24U/8LoTOu5F7gE=",
   "Source": "BlazorAppProjectMovie.Server",
   "BasePath": "_content/BlazorAppProjectMovie.Server",
   "Mode": "Default",
@@ -28,6 +28,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\robert.caraballo\\.nuget\\packages\\tewr.blazor.filereader\\3.3.1.21360\\staticwebassets\\FileReaderComponent.js",
+      "SourceId": "Tewr.Blazor.FileReader",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\robert.caraballo\\.nuget\\packages\\tewr.blazor.filereader\\3.3.1.21360\\staticwebassets\\",
+      "BasePath": "_content/Tewr.Blazor.FileReader",
+      "RelativePath": "FileReaderComponent.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\robert.caraballo\\.nuget\\packages\\tewr.blazor.filereader\\3.3.1.21360\\staticwebassets\\FileReaderComponent.js"
+    },
+    {
+      "Identity": "C:\\Users\\robert.caraballo\\.nuget\\packages\\tewr.blazor.filereader\\3.3.1.21360\\staticwebassets\\FileReaderComponent.js.map",
+      "SourceId": "Tewr.Blazor.FileReader",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\robert.caraballo\\.nuget\\packages\\tewr.blazor.filereader\\3.3.1.21360\\staticwebassets\\",
+      "BasePath": "_content/Tewr.Blazor.FileReader",
+      "RelativePath": "FileReaderComponent.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\robert.caraballo\\.nuget\\packages\\tewr.blazor.filereader\\3.3.1.21360\\staticwebassets\\FileReaderComponent.js.map"
+    },
     {
       "Identity": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "BlazorAppProjectMovie.Client",
@@ -250,6 +284,23 @@
       "OriginalItemSpec": "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.3\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
+      "Identity": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Markdig.dll",
+      "SourceId": "BlazorAppProjectMovie.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Markdig.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\robert.caraballo\\.nuget\\packages\\markdig\\0.28.1\\lib\\net6.0\\Markdig.dll"
+    },
+    {
       "Identity": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
       "SourceId": "BlazorAppProjectMovie.Client",
       "SourceType": "Project",
@@ -350,6 +401,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.3\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
+      "Identity": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "SourceId": "BlazorAppProjectMovie.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Bcl.AsyncInterfaces.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\lib\\netstandard2.1\\Microsoft.Bcl.AsyncInterfaces.dll"
     },
     {
       "Identity": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -3446,6 +3514,23 @@
       "OriginalItemSpec": "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.3\\runtimes\\browser-wasm\\lib\\net6.0\\System.Xml.XPath.XDocument.dll"
     },
     {
+      "Identity": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Tewr.Blazor.FileReader.dll",
+      "SourceId": "BlazorAppProjectMovie.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Tewr.Blazor.FileReader.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\robert.caraballo\\.nuget\\packages\\tewr.blazor.filereader\\3.3.1.21360\\lib\\net6.0\\Tewr.Blazor.FileReader.dll"
+    },
+    {
       "Identity": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\WindowsBase.dll",
       "SourceId": "BlazorAppProjectMovie.Client",
       "SourceType": "Project",
@@ -3937,6 +4022,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.dll"
+    },
+    {
+      "Identity": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\obj\\Debug\\net6.0\\build-gz\\8roAUfoP.gz",
+      "SourceId": "BlazorAppProjectMovie.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Markdig.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Markdig.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Markdig.dll"
     },
     {
       "Identity": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\obj\\Debug\\net6.0\\build-gz\\8UvjPVKT.gz",
@@ -5129,6 +5231,23 @@
       "OriginalItemSpec": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.TextWriterTraceListener.dll"
     },
     {
+      "Identity": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\obj\\Debug\\net6.0\\build-gz\\jNAkRhMG.gz",
+      "SourceId": "BlazorAppProjectMovie.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Bcl.AsyncInterfaces.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Bcl.AsyncInterfaces.dll"
+    },
+    {
       "Identity": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\obj\\Debug\\net6.0\\build-gz\\jw+cgDzB.gz",
       "SourceId": "BlazorAppProjectMovie.Client",
       "SourceType": "Project",
@@ -6215,6 +6334,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Json.dll"
+    },
+    {
+      "Identity": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\obj\\Debug\\net6.0\\build-gz\\t4lJxOk3.gz",
+      "SourceId": "BlazorAppProjectMovie.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Tewr.Blazor.FileReader.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Tewr.Blazor.FileReader.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Tewr.Blazor.FileReader.dll"
     },
     {
       "Identity": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\obj\\Debug\\net6.0\\build-gz\\t4N7JF2V.gz",

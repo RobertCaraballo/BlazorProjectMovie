@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Markdig/0.28.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Markdig.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Markdig.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/6.0.3": {
         "type": "package",
         "dependencies": {
@@ -433,6 +442,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BlazorAppProjectMovie.Shared": "1.0.0",
+          "Markdig": "0.28.1",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.3",
           "Tewr.Blazor.FileReader": "3.3.1.21360"
         },
@@ -456,6 +466,29 @@
     }
   },
   "libraries": {
+    "Markdig/0.28.1": {
+      "sha512": "70CneXw2N/1t7v6OfZJqMKLPRB1YWTPddEIcHT/P6IL6X1zsXELIu/DHVt96kr83PIVLznMuXoFK6b9N9KTODg==",
+      "type": "package",
+      "path": "markdig/0.28.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Markdig.dll",
+        "lib/net452/Markdig.xml",
+        "lib/net6.0/Markdig.dll",
+        "lib/net6.0/Markdig.xml",
+        "lib/netcoreapp3.1/Markdig.dll",
+        "lib/netcoreapp3.1/Markdig.xml",
+        "lib/netstandard2.0/Markdig.dll",
+        "lib/netstandard2.0/Markdig.xml",
+        "lib/netstandard2.1/Markdig.dll",
+        "lib/netstandard2.1/Markdig.xml",
+        "markdig.0.28.1.nupkg.sha512",
+        "markdig.nuspec",
+        "markdig.png",
+        "readme.md"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/6.0.3": {
       "sha512": "eWgsWE7IY7Az2lGBvoYk20290ZqTI0Y9ATyprrwfaC7w8MvBXu2jU+tv90Zt6lbEE3RP55XL+dFydGExcunHbw==",
       "type": "package",

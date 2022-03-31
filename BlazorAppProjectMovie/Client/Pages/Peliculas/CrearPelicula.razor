@@ -5,9 +5,14 @@
 
 <h3>CrearPelicula</h3>
 
-<button @onclick = "Save">Guardar Pelicula</button>
+
+<FormularioPeliculas pelicula = "pelicula" OnValidSubmit = "Save">
+
+</FormularioPeliculas>
 
 @code {
+    private Pelicula pelicula = new Pelicula();
+
     public void Save()
     {
         Console.WriteLine(navigationManager.BaseUri);

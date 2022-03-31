@@ -19,7 +19,19 @@
         </div>
     </div>
 
-    <button class = "btn btn-success" type = "submit"> Make Changes </button>
+    <div class="form-group">
+
+        <InputImg label="Foto" ImagenSeleccionada="ImagenSeleccionada" imagenTemporal=""> </InputImg>
+
+    </div>
+
+    <div class = "form-group form-markdown">
+        <InputMarkdown @bind-Value="@persona.Biografia"
+                       For="@(() => persona.Biografia)"
+                       Label="Biografia" />
+    </div>
+
+    <button class="btn btn-success" type="submit"> Make Changes </button>
 
 </EditForm>
 
@@ -27,4 +39,20 @@
 @code {
     [Parameter] public Personas persona { get; set; }
     [Parameter] public EventCallback OnValidSubmit { get; set; }
+    private string imagenTemporal;
+
+    protected override void OnInitialized()
+    {
+        if (!string.IsNullOrWhiteSpace(persona.Foto))
+        {
+            imagenTemporal = persona.Foto;
+            persona.Foto = null;
+        }
+    }
+
+
+    private void ImagenSeleccionada(string imagenBase64)
+    {
+        persona.Foto = imagenBase64;
+    }
  }

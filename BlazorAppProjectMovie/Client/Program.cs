@@ -2,7 +2,7 @@ using BlazorAppProjectMovie.Client;
 using BlazorAppProjectMovie.Client.Repositorios;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using Blazor.FileReader;
+using Tewr.Blazor.FileReader;
 
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
@@ -21,5 +21,6 @@ static void ConfigureSErvices(IServiceCollection services)
     services.AddSingleton<ServiciosSingleton>();
     services.AddTransient<ServiciosTransistorio>();
     services.AddSingleton<IRepositorio, Repositorio>();
+    services.AddFileReaderService(options => options.InitializeOnFirstCall = true);
 
 }

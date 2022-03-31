@@ -16,6 +16,14 @@
           "BlazorAppProjectMovie.Server.dll": {}
         }
       },
+      "Markdig/0.28.1": {
+        "runtime": {
+          "lib/net6.0/Markdig.dll": {
+            "assemblyVersion": "0.28.0.0",
+            "fileVersion": "0.28.1.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authorization/6.0.3": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "6.0.3",
@@ -96,6 +104,14 @@
           "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.322.12401"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
           }
         }
       },
@@ -225,10 +241,24 @@
           "System.Text.Encodings.Web": "6.0.0"
         }
       },
+      "Tewr.Blazor.FileReader/3.3.1.21360": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.3",
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Tewr.Blazor.FileReader.dll": {
+            "assemblyVersion": "3.3.1.21360",
+            "fileVersion": "3.3.1.21360"
+          }
+        }
+      },
       "BlazorAppProjectMovie.Client/1.0.0": {
         "dependencies": {
           "BlazorAppProjectMovie.Shared": "1.0.0",
-          "Microsoft.AspNetCore.Components.WebAssembly": "6.0.3"
+          "Markdig": "0.28.1",
+          "Microsoft.AspNetCore.Components.WebAssembly": "6.0.3",
+          "Tewr.Blazor.FileReader": "3.3.1.21360"
         },
         "runtime": {
           "BlazorAppProjectMovie.Client.dll": {}
@@ -246,6 +276,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Markdig/0.28.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-70CneXw2N/1t7v6OfZJqMKLPRB1YWTPddEIcHT/P6IL6X1zsXELIu/DHVt96kr83PIVLznMuXoFK6b9N9KTODg==",
+      "path": "markdig/0.28.1",
+      "hashPath": "markdig.0.28.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/6.0.3": {
       "type": "package",
@@ -302,6 +339,13 @@
       "sha512": "sha512-I3FVSfaLdSLs4XmBq5DbK7PuVF/aSf0Xc63/AeNIJFt6/chYvcJaxnKbd4yZo9OXGw5OT9KOIxGWZ/2CucvgJw==",
       "path": "microsoft.aspnetcore.metadata/6.0.3",
       "hashPath": "microsoft.aspnetcore.metadata.6.0.3.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
+      "path": "microsoft.bcl.asyncinterfaces/6.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/6.0.0": {
       "type": "package",
@@ -449,6 +493,13 @@
       "sha512": "sha512-zaJsHfESQvJ11vbXnNlkrR46IaMULk/gHxYsJphzSF+07kTjPHv+Oc14w6QEOfo3Q4hqLJgStUaYB9DBl0TmWg==",
       "path": "system.text.json/6.0.0",
       "hashPath": "system.text.json.6.0.0.nupkg.sha512"
+    },
+    "Tewr.Blazor.FileReader/3.3.1.21360": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wBHvDqKBtuYIogCtQEAX2nqqqFDc+ZmjhCppMC+6yccDC9kjlMKjot2N8Bw/yKEbJNbgW2ilAkicK2n126xfyw==",
+      "path": "tewr.blazor.filereader/3.3.1.21360",
+      "hashPath": "tewr.blazor.filereader.3.3.1.21360.nupkg.sha512"
     },
     "BlazorAppProjectMovie.Client/1.0.0": {
       "type": "project",

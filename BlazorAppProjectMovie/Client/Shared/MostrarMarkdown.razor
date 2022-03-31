@@ -1,0 +1,28 @@
+﻿@using Markdig
+
+@if (plantillaCarga != null)
+{
+    @plantillaCarga
+}
+else
+{
+    @((MarkupString)ContenidoHTML)
+}
+
+<div>
+</div>
+
+@code {
+    [Parameter] public string ContenidoMarkdown { get; set; }
+    [Parameter] public RenderFragment plantillaCarga { get; set; }
+
+    private string ContenidoHTML;
+
+    protected override void OnParametersSet()
+    {
+        if (ContenidoMarkdown != null)
+        {
+            ContenidoHTML = Markdown.ToHtml(ContenidoMarkdown);
+        }
+    }
+}
