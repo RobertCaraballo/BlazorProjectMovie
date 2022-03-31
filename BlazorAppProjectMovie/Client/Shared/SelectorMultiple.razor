@@ -1,0 +1,66 @@
+﻿<h3>Selector Multiple</h3>
+
+<div class="selector-multiple">
+    <ul class="selectable-ul">
+        @foreach (var item in NoSelect)
+        {
+            <li @onclick="@(() => Select(item))">@item.valor </li>
+        }
+    </ul>
+
+    <div class="selector-multiple-botones">
+        <button type="button" @onclick="SelectAll">  >>  </button>
+
+        <button type="button" @onclick="OfSelectAll">  @borrar  </button>
+    </div>
+    <ul class="selectable-ul">
+        @foreach (var item in Selects)
+        {
+            <li @onclick="@(() => OfSelect(item))">@item.valor</li>
+        }
+
+    </ul>
+
+</div>
+
+@code {
+    string borrar = "<<";
+    [Parameter] public Pelicula Pelicula {get; set;}
+
+    [Parameter] public List<SelectMultipleModel> NoSelect { get; set; } = new List<SelectMultipleModel>();
+    [Parameter] public List<SelectMultipleModel> Selects { get; set; } = new List<SelectMultipleModel>();
+
+
+
+
+
+    private void Select(SelectMultipleModel item)
+    {
+        NoSelect.Remove(item);
+        Selects.Add(item);
+    }
+
+    private void OfSelect(SelectMultipleModel item)
+    {
+
+        Selects.Remove(item);
+        NoSelect.Add(item);
+
+    }
+
+    private void SelectAll()
+    {
+        Selects.AddRange(NoSelect);
+        NoSelect.Clear();
+
+    }
+
+    private void OfSelectAll()
+    {
+        NoSelect.AddRange(Selects);
+        Selects.Clear();
+    }
+
+
+
+}
