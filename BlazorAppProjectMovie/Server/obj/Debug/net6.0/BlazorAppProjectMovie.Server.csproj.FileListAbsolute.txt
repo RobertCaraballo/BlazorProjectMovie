@@ -48,3 +48,6 @@ C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMov
 C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Server\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Server\bin\Debug\net6.0\Tewr.Blazor.FileReader.dll
 C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Server\bin\Debug\net6.0\Markdig.dll
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Server\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll

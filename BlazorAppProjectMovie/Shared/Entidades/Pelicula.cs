@@ -1,4 +1,6 @@
-﻿namespace BlazorAppProjectMovie.Client.Shared.Entidades
+﻿using BlazorAppProjectMovie.Shared.Entidades;
+
+namespace BlazorAppProjectMovie.Client.Shared.Entidades
 {
     public class Pelicula
     {
@@ -14,6 +16,8 @@
         public DateTime Fecha_de_lazanmiento { get; set; }
 
         public List<GeneroPelicula> PeliculaList { get; set; } = new List<GeneroPelicula>();
+
+        public List<PeliculaActor> PeliculaActors { get; set; }
 
         public string Poster { get; set; }
     }
