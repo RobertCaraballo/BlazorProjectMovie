@@ -7,16 +7,16 @@ namespace BlazorAppProjectMovie.Client.Repositorios
 
         public HttpResponseWrapper(T response, bool error, HttpResponseMessage httpResponseMessage)
         {
-            this.Error = error;
-            this.Response = response;
-            this.HttpRequestMessage = httpRequestMessage;
+            Error = error;
+            Response = response;
+            HttpResponseMessage = httpResponseMessage;
         }
 
         public bool Error { get; set; }
 
         public T Response { get; set; }
 
-        public HttpRequestMessage HttpRequestMessage { get; set; }
+        public HttpResponseMessage HttpResponseMessage { get; set; }
 
     }
 }
