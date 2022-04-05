@@ -26,6 +26,7 @@ static void ConfigureSErvices(IServiceCollection services)
 
     services.AddSingleton<ServiciosSingleton>();
     services.AddTransient<ServiciosTransistorio>();
+
     services.AddSingleton<IRepositorio, Repositorio>();
     services.AddFileReaderService(options => options.InitializeOnFirstCall = true);
 

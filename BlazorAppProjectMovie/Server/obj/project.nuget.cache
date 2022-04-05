@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ROur88dGKn76KKpm1QFEVZPvsRx9mJ1H7TAKcSwRZcc3lan0uWjZX4fB5yBO2pC3hLv4HEu30hiUp80NXSLAnw==",
+  "dgSpecHash": "ZI+94iphm72sDr3PgJfsPJ9TlbN5V6OSjXNcqpi6m1UZ2dISIZIo9uLzxXgYJmWcH+HSpXXNszcHhLibnomeFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Server\\BlazorAppProjectMovie.Server.csproj",
+  "projectFilePath": "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie1\\BlazorAppProjectMovie\\Server\\BlazorAppProjectMovie.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\automapper\\4.2.1\\automapper.4.2.1.nupkg.sha512",
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\castle.core\\3.3.3\\castle.core.3.3.3.nupkg.sha512",

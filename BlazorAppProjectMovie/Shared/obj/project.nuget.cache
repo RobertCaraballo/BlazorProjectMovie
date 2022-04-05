@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dtIiXkvGvZ3TA8oZ66y868dLySBFrv/RfMSPr6OwqamHIS2JaMcZ27N4JtxYoE3oxKdTpjPNXqLiDcUTdClpyg==",
+  "dgSpecHash": "alklJkVZzXryIy1lpTE/H/io/DS4ntsB518n6TBpS2IzqEgccuEUfBu7Y5UDZ2wmZTtDhfNYhGM1zIHJW1Eo3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj",
+  "projectFilePath": "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie1\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

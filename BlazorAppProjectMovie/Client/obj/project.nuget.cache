@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cCbPpsnD7FCBypLy2JBKHa1GiYlFzOjGNlP91SSFZdp0A96o1ZQG4adsXJzLnakJKHgpP6wMyD3ucVJQrnImMw==",
+  "dgSpecHash": "z7k8mQ0/x4UvwdwdwmOCyvUG+YFBs6+TR5pkohA3MkeIyGgIX7PpRniPWDsThyyFuH//Z5+IoHcULSJRVA8H0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Client\\BlazorAppProjectMovie.Client.csproj",
+  "projectFilePath": "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie1\\BlazorAppProjectMovie\\Client\\BlazorAppProjectMovie.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\automapper\\4.2.1\\automapper.4.2.1.nupkg.sha512",
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\castle.core\\3.3.3\\castle.core.3.3.3.nupkg.sha512",
@@ -68,8 +68,7 @@
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\tewr.blazor.filereader\\3.3.1.21360\\tewr.blazor.filereader.3.3.1.21360.nupkg.sha512",
-    "C:\\Users\\robert.caraballo\\.nuget\\packages\\webactivatorex\\2.1.0\\webactivatorex.2.1.0.nupkg.sha512",
-    "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.3\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.3.nupkg.sha512"
+    "C:\\Users\\robert.caraballo\\.nuget\\packages\\webactivatorex\\2.1.0\\webactivatorex.2.1.0.nupkg.sha512"
   ],
   "logs": [
     {

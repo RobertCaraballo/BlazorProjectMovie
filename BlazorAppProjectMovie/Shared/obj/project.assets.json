@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie1\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj",
       "projectName": "BlazorAppProjectMovie.Shared",
-      "projectPath": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj",
+      "projectPath": "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie1\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj",
       "packagesPath": "C:\\Users\\robert.caraballo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorAppProjectMovie\\BlazorAppProjectMovie\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie1\\BlazorAppProjectMovie\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\robert.caraballo\\AppData\\Roaming\\NuGet\\NuGet.Config",
