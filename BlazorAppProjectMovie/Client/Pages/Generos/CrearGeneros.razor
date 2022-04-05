@@ -1,4 +1,5 @@
 ﻿@page "/generos/crear"
+@inject IRepositorio repositorio;
 
 <h3>Crear Generos</h3>
 
@@ -10,8 +11,11 @@
 @code {
     private Genero genero = new Genero();
 
-    private void Crear()
+    private async void Crear()
     {
+
+        var httpResponse = await repositorio.Post("api/generos", genero);
+
         Console.WriteLine("Ejecutnado el metodo");
         Console.WriteLine($"Se han agregado los datos correctamente; se agrego {genero.Name}");
     }
