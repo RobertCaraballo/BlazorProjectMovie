@@ -15,6 +15,9 @@ namespace BlazorAppProjectMovie.Server
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<GeneroPelicula>().HasKey(e => new {e.GeneroId, e.PeliculaId });
+            modelBuilder.Entity<PeliculaActor>().HasKey(x => new { x.PeliculaId, x.PersonaId });
+
+
             base.OnModelCreating(modelBuilder);
         }
 
