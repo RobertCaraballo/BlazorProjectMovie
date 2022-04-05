@@ -31,14 +31,3 @@ static void ConfigureSErvices(IServiceCollection services)
     services.AddFileReaderService(options => options.InitializeOnFirstCall = true);
 
 }
-
-
-public class MyController
-{
-    private readonly ApplicationDbContext _context;
-
-    public MyController(ApplicationDbContext context)
-    {
-        _context = context;
-    }
-}

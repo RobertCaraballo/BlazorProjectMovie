@@ -11,137 +11,137 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BlazorAppProjectMovie.Client
 build_property.RootNamespace = BlazorAppProjectMovie.Client
-build_property.ProjectDir = C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client\
+build_property.ProjectDir = C:\Users\robert.caraballo\source\repos\BlazorProjectMovie1\BlazorAppProjectMovie\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\robert.caraballo\source\repos\BlazorAppProjectMovie\BlazorAppProjectMovie\Client
+build_property.MSBuildProjectDirectory = C:\Users\robert.caraballo\source\repos\BlazorProjectMovie1\BlazorAppProjectMovie\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/App.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Compartir.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Compartir.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFydGlyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Counter.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/FetchData.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Generos/CrearGeneros.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Generos/CrearGeneros.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJvc1xDcmVhckdlbmVyb3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Generos/EditarGenero.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Generos/EditarGenero.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJvc1xFZGl0YXJHZW5lcm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Generos/FormularioGenero.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Generos/FormularioGenero.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJvc1xGb3JtdWxhcmlvR2VuZXJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Generos/IndiceGenero.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Generos/IndiceGenero.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJvc1xJbmRpY2VHZW5lcm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Index.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Peliculas/CrearPelicula.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Peliculas/CrearPelicula.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFzXENyZWFyUGVsaWN1bGEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Peliculas/EditarPelicula.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Peliculas/EditarPelicula.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFzXEVkaXRhclBlbGljdWxhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Peliculas/FiltroPelicula.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Peliculas/FiltroPelicula.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFzXEZpbHRyb1BlbGljdWxhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Peliculas/FormularioPeliculas.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Peliculas/FormularioPeliculas.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFzXEZvcm11bGFyaW9QZWxpY3VsYXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Peliculas/VisualizarPelicula.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Peliculas/VisualizarPelicula.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFzXFZpc3VhbGl6YXJQZWxpY3VsYS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Personas/CrearPersonas.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Personas/CrearPersonas.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcQ3JlYXJQZXJzb25hcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Personas/EditarPersonas.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Personas/EditarPersonas.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcRWRpdGFyUGVyc29uYXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Personas/FormularioPersonas.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Personas/FormularioPersonas.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcRm9ybXVsYXJpb1BlcnNvbmFzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Pages/Personas/IndicePersonas.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Pages/Personas/IndicePersonas.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcSW5kaWNlUGVyc29uYXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Shared/Component.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Shared/Component.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Shared/CustomTypeahed.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Shared/CustomTypeahed.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEN1c3RvbVR5cGVhaGVkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Shared/InputImg.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Shared/InputImg.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXElucHV0SW1nLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Shared/ListadoGenerico.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Shared/ListadoGenerico.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExpc3RhZG9HZW5lcmljby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Shared/ListadoPelicula.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Shared/ListadoPelicula.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExpc3RhZG9QZWxpY3VsYS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Shared/ListaPeliculas.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Shared/ListaPeliculas.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExpc3RhUGVsaWN1bGFzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Shared/PeliculaIndividual.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Shared/PeliculaIndividual.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBlbGljdWxhSW5kaXZpZHVhbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Shared/SelectorMultiple.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Shared/SelectorMultiple.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlbGVjdG9yTXVsdGlwbGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Shared/SurveyPrompt.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/_Imports.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Shared/InputMarkdown.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Shared/InputMarkdown.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXElucHV0TWFya2Rvd24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-2cyxbkdw0q
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Shared/MainLayout.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-l5grnfjdli
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Shared/MostrarMarkdown.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Shared/MostrarMarkdown.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1vc3RyYXJNYXJrZG93bi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-r3d9r65y5a
 
-[C:/Users/robert.caraballo/source/repos/BlazorAppProjectMovie/BlazorAppProjectMovie/Client/Shared/NavMenu.razor]
+[C:/Users/robert.caraballo/source/repos/BlazorProjectMovie1/BlazorAppProjectMovie/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-i61lb48pwf

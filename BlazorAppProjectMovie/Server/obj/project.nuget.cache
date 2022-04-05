@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZI+94iphm72sDr3PgJfsPJ9TlbN5V6OSjXNcqpi6m1UZ2dISIZIo9uLzxXgYJmWcH+HSpXXNszcHhLibnomeFg==",
+  "dgSpecHash": "FoSFJqtGN8S8fx9LmtMBVCawUSSRsovgWc7WJgjvlCO7g2yr+9UkW772+VQ4YN+ziNMpBDz/MHTvykoHJ3aK3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie1\\BlazorAppProjectMovie\\Server\\BlazorAppProjectMovie.Server.csproj",
+  "projectFilePath": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorProjectMovie1\\BlazorAppProjectMovie\\Server\\BlazorAppProjectMovie.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\automapper\\4.2.1\\automapper.4.2.1.nupkg.sha512",
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\castle.core\\3.3.3\\castle.core.3.3.3.nupkg.sha512",
@@ -47,7 +47,7 @@
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.jsinterop\\6.0.3\\microsoft.jsinterop.6.0.3.nupkg.sha512",
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.3\\microsoft.jsinterop.webassembly.6.0.3.nupkg.sha512",
-    "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.net.compilers\\1.0.0\\microsoft.net.compilers.1.0.0.nupkg.sha512",
+    "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.net.compilers\\4.1.0\\microsoft.net.compilers.4.1.0.nupkg.sha512",
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.owin\\3.0.1\\microsoft.owin.3.0.1.nupkg.sha512",
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.owin.host.systemweb\\3.0.1\\microsoft.owin.host.systemweb.3.0.1.nupkg.sha512",
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.owin.security\\3.0.1\\microsoft.owin.security.3.0.1.nupkg.sha512",
