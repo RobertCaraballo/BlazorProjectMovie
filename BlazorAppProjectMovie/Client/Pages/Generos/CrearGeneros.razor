@@ -4,21 +4,21 @@
 
 <h3>Crear Generos</h3>
 
-<FormularioGenero OnValidSubmit = "Crear" genero = "genero">
+<FormularioGenero OnValidSubmit = "Crear" genero = "Genero">
 
 </FormularioGenero>
 
 
 @code {
-    private Genero genero = new Genero();
+    private Genero Genero = new Genero();
 
     private async Task Crear()
     {
 
-        var httpResponse = await repositorio.Post("api/generos", genero);
+        var httpResponse = await repositorio.Post("api/generos", Genero);
         if (httpResponse.Error)
         {
-            var body = await httpResponse.HttpRequestMessage.Content.ReadAsStringAsync();
+            var body = await httpResponse.HttpResponseMessage.Content.ReadAsStringAsync();
             Console.WriteLine(body);
         }
         else
@@ -27,7 +27,7 @@
         }
 
         Console.WriteLine("Ejecutnado el metodo");
-        Console.WriteLine($"Se han agregado los datos correctamente; se agrego {genero.Name}");
+        Console.WriteLine($"Se han agregado los datos correctamente; se agrego {Genero.Name}");
     }
 
 }

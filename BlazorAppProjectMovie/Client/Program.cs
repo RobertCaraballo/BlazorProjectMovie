@@ -25,7 +25,9 @@ static void ConfigureSErvices(IServiceCollection services)
     services.AddSingleton<ServiciosSingleton>();
     services.AddTransient<ServiciosTransistorio>();
 
-    services.AddSingleton<IRepositorio, Repositorio>();
+
+    //se cambio de Singleton a AddScoped, revisar
+    services.AddScoped<IRepositorio, Repositorio>();
     services.AddFileReaderService(options => options.InitializeOnFirstCall = true);
 
 }
