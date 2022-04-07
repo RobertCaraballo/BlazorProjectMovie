@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Tewr.Blazor.FileReader;
 using Microsoft.Extensions.DependencyInjection;
 using System.Configuration;
+using BlazorAppProjectMovie.Client.Pages.Helpers;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
@@ -28,6 +29,7 @@ static void ConfigureSErvices(IServiceCollection services)
 
     //se cambio de Singleton a AddScoped, revisar
     services.AddScoped<IRepositorio, Repositorio>();
+    services.AddScoped<IMostrarMensaje, MostrarMensajes>();
     services.AddFileReaderService(options => options.InitializeOnFirstCall = true);
 
 }

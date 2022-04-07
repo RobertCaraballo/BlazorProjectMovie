@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\robert.caraballo\\source\\repos\\BlazorProjectMovie1\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj": {}
+    "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie2\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\robert.caraballo\\source\\repos\\BlazorProjectMovie1\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj": {
+    "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie2\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorProjectMovie1\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie2\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj",
         "projectName": "BlazorAppProjectMovie.Shared",
-        "projectPath": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorProjectMovie1\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj",
+        "projectPath": "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie2\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj",
         "packagesPath": "C:\\Users\\robert.caraballo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorProjectMovie1\\BlazorAppProjectMovie\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie2\\BlazorAppProjectMovie\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\robert.caraballo\\AppData\\Roaming\\NuGet\\NuGet.Config",

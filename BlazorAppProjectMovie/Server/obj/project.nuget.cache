@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RqWhXHK6109S0rXxakvqdhb1rZpd/OizI3P7JOdtRd1/cNxpE7ERPYlBA9lyDCjBW1sgP+1aitQevM9xubm7UA==",
+  "dgSpecHash": "+rsTrtn/f94f+VrF/CJM2ZDW91gZvXrsFXtj0iXpPpDPvtcnB/X5TyVJg2Oy0gKIyhv+lAOKeaC/I0pBGN7SWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\robert.caraballo\\source\\repos\\BlazorProjectMovie1\\BlazorAppProjectMovie\\Server\\BlazorAppProjectMovie.Server.csproj",
+  "projectFilePath": "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie2\\BlazorAppProjectMovie\\Server\\BlazorAppProjectMovie.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\markdig\\0.28.1\\markdig.0.28.1.nupkg.sha512",

@@ -21,4 +21,4 @@ namespace BlazorAppProjectMovie.Client.Shared.Entidades
 
         public string Poster { get; set; }
     }
-}
+}   

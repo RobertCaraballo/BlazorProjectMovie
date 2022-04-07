@@ -1,6 +1,7 @@
 ﻿@page "/generos/crear"
 @inject IRepositorio repositorio;
 @inject NavigationManager navigationManager;
+@inject IMostrarMensaje mostrarMensaje
 
 <h3>Crear Generos</h3>
 
@@ -18,12 +19,14 @@
         var httpResponse = await repositorio.Post("api/generos", Genero);
         if (httpResponse.Error)
         {
-            var body = await httpResponse.HttpResponseMessage.Content.ReadAsStringAsync();
-            Console.WriteLine(body);
+            var body = await httpResponse.GetBody();
+            await mostrarMensaje.MostrarMensajeError(body);
+            //var body = await httpResponse.HttpResponseMessage.Content.ReadAsStringAsync();
+            //Console.WriteLine(body);
         }
         else
         {
-            navigationManager.NavigateTo("/generos");
+            navigationManager.NavigateTo("generos");
         }
 
         Console.WriteLine("Ejecutnado el metodo");

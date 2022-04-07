@@ -18,5 +18,10 @@ namespace BlazorAppProjectMovie.Client.Repositorios
 
         public HttpResponseMessage HttpResponseMessage { get; set; }
 
+        public async Task<string> GetBody()
+        {
+            return await HttpResponseMessage.Content.ReadAsStringAsync();
+        }
+
     }
 }
