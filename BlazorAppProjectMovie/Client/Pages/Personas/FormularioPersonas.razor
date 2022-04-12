@@ -1,6 +1,6 @@
 ﻿<h3>Formulario Personas</h3>
 
-<EditForm Model="persona" OnInvalidSubmit="OnValidSubmit">
+<EditForm Model="persona" OnSubmit="OnValidSubmit">
     <DataAnnotationsValidator />
 
     <div class="form-group">
@@ -20,9 +20,7 @@
     </div>
 
     <div class="form-group">
-
         <InputImg label="Foto" ImagenSeleccionada="ImagenSeleccionada" imagenTemporal=""> </InputImg>
-
     </div>
 
     <div class = "form-group form-markdown">
@@ -37,6 +35,7 @@
 
 
 @code {
+
     [Parameter] public Personas persona { get; set; }
     [Parameter] public EventCallback OnValidSubmit { get; set; }
     private string imagenTemporal;
@@ -49,7 +48,6 @@
             persona.Foto = null;
         }
     }
-
 
     private void ImagenSeleccionada(string imagenBase64)
     {

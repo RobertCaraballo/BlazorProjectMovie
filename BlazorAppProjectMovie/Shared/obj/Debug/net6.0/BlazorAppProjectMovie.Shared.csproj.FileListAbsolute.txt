@@ -34,3 +34,15 @@ C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie2\BlazorAppProjectMovie
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie2\BlazorAppProjectMovie\Shared\obj\Debug\net6.0\refint\BlazorAppProjectMovie.Shared.dll
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie2\BlazorAppProjectMovie\Shared\obj\Debug\net6.0\BlazorAppProjectMovie.Shared.pdb
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie2\BlazorAppProjectMovie\Shared\obj\Debug\net6.0\ref\BlazorAppProjectMovie.Shared.dll
+C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Shared\bin\Debug\net6.0\BlazorAppProjectMovie.Shared.deps.json
+C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Shared\bin\Debug\net6.0\BlazorAppProjectMovie.Shared.dll
+C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Shared\bin\Debug\net6.0\BlazorAppProjectMovie.Shared.pdb
+C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Shared\obj\Debug\net6.0\BlazorAppProjectMovie.Shared.csproj.AssemblyReference.cache
+C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Shared\obj\Debug\net6.0\BlazorAppProjectMovie.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Shared\obj\Debug\net6.0\BlazorAppProjectMovie.Shared.AssemblyInfoInputs.cache
+C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Shared\obj\Debug\net6.0\BlazorAppProjectMovie.Shared.AssemblyInfo.cs
+C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Shared\obj\Debug\net6.0\BlazorAppProjectMovie.Shared.csproj.CoreCompileInputs.cache
+C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Shared\obj\Debug\net6.0\BlazorAppProjectMovie.Shared.dll
+C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Shared\obj\Debug\net6.0\refint\BlazorAppProjectMovie.Shared.dll
+C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Shared\obj\Debug\net6.0\BlazorAppProjectMovie.Shared.pdb
+C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Shared\obj\Debug\net6.0\ref\BlazorAppProjectMovie.Shared.dll

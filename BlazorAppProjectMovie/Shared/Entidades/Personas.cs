@@ -1,5 +1,6 @@
 ﻿using BlazorAppProjectMovie.Shared.Entidades;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BlazorAppProjectMovie.Client.Shared.Entidades
 {
@@ -15,8 +16,11 @@ namespace BlazorAppProjectMovie.Client.Shared.Entidades
         public string Foto { get; set; }
 
         [Required]
-        public DateTime? FechaNacimiento { get; set; }
+        public DateTime FechaNacimiento { get; set; }
 
         public List<PeliculaActor> PeliculasActor { get; set; }
+
+        [NotMapped]
+        public string Personaje { get; set; }
     }
 }

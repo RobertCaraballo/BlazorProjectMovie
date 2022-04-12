@@ -1,14 +1,14 @@
 ﻿@page "/peliculas/crear"
 @inject NavigationManager navigationManager
-
+@inject IRepositorio repositorio
+@inject IMostrarMensaje mostrarMensaje
 
 
 <h3>CrearPelicula</h3>
 
 
 <FormularioPeliculas pelicula = "pelicula" OnValidSubmit = "Save" label = "Titulos"
-GenerosNoSeleccionados = "GenerosNoSeleccionados" >
-
+GenerosNoSeleccionados = "GenerosNoSeleccionados">
 </FormularioPeliculas>
 
 @code {
@@ -30,9 +30,21 @@ GenerosNoSeleccionados = "GenerosNoSeleccionados" >
         };
     }
 
-    public void Save()
+    async Task Save()
     {
-        Console.WriteLine(navigationManager.BaseUri);
-        navigationManager.NavigateTo("pelicula");
+        var httpResponsa = await repositorio.Post<Pelicula, int>("api/peliculas", pelicula);
+        //Console.WriteLine(navigationManager.BaseUri);
+        //navigationManager.NavigateTo("pelicula");
+
+        if (httpResponsa.Error)
+        {
+            var mensajeError = await httpResponsa.GetBody();
+            await mostrarMensaje.MostrarMensajeError(mensajeError);
+        }
+        else
+        {
+            var PeliculaId = httpResponsa.Response;
+            navigationManager.NavigateTo($"/pelicula/{PeliculaId}/{pelicula.Titulo.Replace(" ", "-")}");
+        }
     }
 }

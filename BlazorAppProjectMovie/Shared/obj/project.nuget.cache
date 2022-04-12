@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9SXGC4aCa9ZKXC8N3PSfEUTK4JwehpOqvPjDDqvY7wk12gRCA7CCQxm3I+RZ9z37tKRnTsxPzbWF12EZFWnCCg==",
+  "dgSpecHash": "OVoWP+/vvgPUN6QX64cz4tehOluZuDWwkADyLY+ImQO6ANX1WIwPOexr0ketqiqPiHp8VJNIUiG4D4kVft5zWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie2\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj",
+  "projectFilePath": "C:\\Users\\robert.caraballo\\Source\\Repos\\BlazorProjectMovie3\\BlazorAppProjectMovie\\Shared\\BlazorAppProjectMovie.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\robert.caraballo\\.nuget\\packages\\microsoft.net.compilers\\4.1.0\\microsoft.net.compilers.4.1.0.nupkg.sha512"
   ],

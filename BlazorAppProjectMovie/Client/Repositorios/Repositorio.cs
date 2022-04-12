@@ -19,6 +19,8 @@ namespace BlazorAppProjectMovie.Client.Repositorios
             this.httpClient = httpClient;
         }
 
+        private JsonSerializerOptions OpcionPorDefectoJson => new JsonSerializerOptions() { PropertyNameCaseInsensitive = true };
+
         public async Task<HttpResponseWrapper<object>> Post<T>(string url, T enviar)
         {
             var enviarJSON = JsonSerializer.Serialize(enviar);
@@ -26,16 +28,41 @@ namespace BlazorAppProjectMovie.Client.Repositorios
             var responseHttp = await httpClient.PostAsync(url, enviarContent);
             return new HttpResponseWrapper<object>(null, !responseHttp.IsSuccessStatusCode, responseHttp);
         }
+        public async Task<HttpResponseWrapper<TResponse>> Post<T, TResponse>(string url, T enviar)
+        {
+            var enviarJSON = JsonSerializer.Serialize(enviar);
+            var enviarContent = new StringContent(enviarJSON, Encoding.UTF8, "application/json");
+            var responseHttp = await httpClient.PostAsync(url, enviarContent);
 
+            if (responseHttp.IsSuccessStatusCode)
+            {
+                var response = await DeserializarRespuesta<TResponse>(responseHttp, OpcionPorDefectoJson);
+
+                return new HttpResponseWrapper<TResponse>(response, false, responseHttp);
+                //return new HttpResponseWrapper<TResponse>();
+            }
+            else
+            {
+                return new HttpResponseWrapper<TResponse>(default, true, responseHttp);
+            }
+
+            //return new HttpResponseWrapper<object>(null, !responseHttp.IsSuccessStatusCode, responseHttp);
+        }
+
+        private async Task<T> DeserializarRespuesta<T>(HttpResponseMessage httpResponse, JsonSerializerOptions jsonSerializerOptions)
+        {
+            var responseString = await httpResponse.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<T>(responseString, jsonSerializerOptions);
+        }
         public List<Pelicula> GetMovies()
         {
-            return new List<Pelicula>
-        {
-            new Pelicula(){Titulo = "Los negros", Fecha_de_lazanmiento = new DateTime(2019, 7, 2), Poster = "https://pics.filmaffinity.com/los_negros-999805830-mmed.jpg"},
-            new Pelicula(){Titulo = "Sonic 2", Fecha_de_lazanmiento = new DateTime(2019, 7, 2),Poster = "https://pics.filmaffinity.com/sonic_the_hedgehog_2-126622695-mmed.jpg"},
-            new Pelicula(){Titulo = "Belle", Fecha_de_lazanmiento = new DateTime(2019, 7, 2), Poster = "https://pics.filmaffinity.com/ryu_to_sobakasu_no_hime-275212334-mmed.jpg"},
-            new Pelicula(){Titulo = "La cima", Fecha_de_lazanmiento = new DateTime(2019, 7, 2), Poster = "https://pics.filmaffinity.com/la_cima-811439843-mmed.jpg"}
-        };
+                return new List<Pelicula>
+            {
+                new Pelicula(){Titulo = "Los negros", Fecha_de_lazanmiento = new DateTime(2019, 7, 2), Poster = "https://pics.filmaffinity.com/los_negros-999805830-mmed.jpg"},
+                new Pelicula(){Titulo = "Sonic 2", Fecha_de_lazanmiento = new DateTime(2019, 7, 2),Poster = "https://pics.filmaffinity.com/sonic_the_hedgehog_2-126622695-mmed.jpg"},
+                new Pelicula(){Titulo = "Belle", Fecha_de_lazanmiento = new DateTime(2019, 7, 2), Poster = "https://pics.filmaffinity.com/ryu_to_sobakasu_no_hime-275212334-mmed.jpg"},
+                new Pelicula(){Titulo = "La cima", Fecha_de_lazanmiento = new DateTime(2019, 7, 2), Poster = "https://pics.filmaffinity.com/la_cima-811439843-mmed.jpg"}
+            };
         }
     }
 }
