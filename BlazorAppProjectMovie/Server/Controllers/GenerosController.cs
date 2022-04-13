@@ -1,5 +1,6 @@
 ﻿using BlazorAppProjectMovie.Client.Shared.Entidades;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
 namespace BlazorAppProjectMovie.Server.Controllers
@@ -17,7 +18,7 @@ namespace BlazorAppProjectMovie.Server.Controllers
         //[HttpGet]
         //public async Task<ActionResult<List<Genero>>> Get()
         //{
-
+        //    return await context.Generos.ToListAsync();
         //}
 
         [HttpPost]
@@ -26,7 +27,7 @@ namespace BlazorAppProjectMovie.Server.Controllers
             context.Add(genero);
             await context.SaveChangesAsync();
             return genero.Id;
-
+            
         }
     }
 }
