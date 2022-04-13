@@ -1,9 +1,40 @@
 ﻿@page "/generos"
+@inject IRepositorio repositorio
 
 <h3>IndiceGenero</h3>
 
-<a class = "btn btn-dark" href = "/generos/crear">Agregar Genero</a>
+<div>
+    <a class="btn btn-dark" href="/generos/crear">Agregar Genero</a>
+</div>
+
+<ListadoGenerico Listado="Generos">
+    <HayRegistrosCompeto>
+        <table class="table tabletable-striped">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Nombre</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Generos)
+                {
+                    <tr>
+                        <td>  N/A  </td>
+                        <td>@item.Name</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </HayRegistrosCompeto>
+</ListadoGenerico>
 
 @code {
-
+    public List<Genero> Generos { get; set; }
+    protected async override Task OnInitializedAsync()
+    {
+        var responseHttp = await repositorio.Get<List<Genero>>("api/generos");
+        Generos = responseHttp.Response;
+    }
 }

@@ -2,7 +2,7 @@
 
 @if (Listado == null)
 {
-    @if(Cargando == null)
+    @if (Cargando == null)
     {
         <text>Buscando peliculavghvhs</text>
     }
@@ -15,16 +15,25 @@
 else
 {
 
-    @foreach (var item in Listado)
+    if (HayRegistros != null)
     {
-        @thereAreDate(item);
-        
+        @foreach (var item in Listado)
+        {
+            @thereAreDate(item)
+            ;
+        }
+
+    }
+    else
+    {
+        @HayRegistrosCompeto
+        ;
     }
 
-@*    @foreach (var pelicula in peliculas)
-    {
+    @*    @foreach (var pelicula in peliculas)
+        {
         <PeliculaIndividual Pelicula="pelicula" EliminarPelicula="Eliminar" />
-    }*@
+        }*@
 
 }
 
@@ -32,7 +41,10 @@ else
 
     [Parameter] public RenderFragment Cargando { get; set; }
     [Parameter] public RenderFragment<Titem> thereAreDate { get; set; }
-    [Parameter] public List<Titem> Listado { get; set;  }
+    [Parameter] public RenderFragment HayRegistrosCompeto { get; set; }
+    [Parameter] public RenderFragment HayRegistros { get; set; }
+
+    [Parameter] public List<Titem> Listado { get; set; }
 
 
 }

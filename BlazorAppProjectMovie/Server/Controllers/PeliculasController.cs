@@ -11,7 +11,7 @@ namespace BlazorAppProjectMovie.Server.Controllers
 
         public PeliculasController(ApplicationDbContext context)
         {
-            context = context;
+            this.context = context;
         }
 
 

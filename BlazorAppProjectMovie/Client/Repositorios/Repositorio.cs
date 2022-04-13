@@ -19,7 +19,24 @@ namespace BlazorAppProjectMovie.Client.Repositorios
             this.httpClient = httpClient;
         }
 
-        private JsonSerializerOptions OpcionPorDefectoJson => new JsonSerializerOptions() { PropertyNameCaseInsensitive = true };
+        private JsonSerializerOptions OpcionPorDefectoJson => new() { PropertyNameCaseInsensitive = true };
+
+        public async Task<HttpResponseWrapper<T>> Get<T>(string url)
+        {
+            var responseHTTP = await httpClient.GetAsync(url);
+
+            if (responseHTTP.IsSuccessStatusCode)
+            {
+
+                var response = await DeserializarRespuesta<T>(responseHTTP, OpcionPorDefectoJson);
+                return new HttpResponseWrapper<T>(response, false, responseHTTP);
+
+            }else
+            {
+                return new HttpResponseWrapper<T>(default, true, responseHTTP);
+            }
+
+        }
 
         public async Task<HttpResponseWrapper<object>> Post<T>(string url, T enviar)
         {
