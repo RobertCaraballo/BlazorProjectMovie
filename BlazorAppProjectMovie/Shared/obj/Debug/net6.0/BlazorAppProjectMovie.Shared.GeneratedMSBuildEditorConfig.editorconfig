@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = BlazorAppProjectMovie.Shared
-build_property.ProjectDir = C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Shared\
+build_property.ProjectDir = C:\Users\robert.caraballo\source\repos\BlazorProjectMovie3\BlazorAppProjectMovie\Shared\

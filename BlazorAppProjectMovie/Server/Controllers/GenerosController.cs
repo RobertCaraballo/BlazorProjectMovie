@@ -15,11 +15,11 @@ namespace BlazorAppProjectMovie.Server.Controllers
             this.context = context;
         }
 
-        //[HttpGet]
-        //public async Task<ActionResult<List<Genero>>> Get()
-        //{
-        //    return await context.Generos.ToListAsync();
-        //}
+        [HttpGet]
+        public async Task<ActionResult<List<Genero>>> Get()
+        {
+            return await context.Generos.ToListAsync();
+        }
 
         [HttpPost]
         public async Task<ActionResult<int>> Post(Genero genero)

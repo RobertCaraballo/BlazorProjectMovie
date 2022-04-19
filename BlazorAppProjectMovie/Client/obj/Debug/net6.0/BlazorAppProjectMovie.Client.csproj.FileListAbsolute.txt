@@ -2562,10 +2562,6 @@ C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\XP4CMzdq.gz
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\64fxtPS7.gz
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\P0YFUK4D.gz
-C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\p14usIN0.gz
-C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\cCbRP6M9.gz
-C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\cim4wKAo.gz
-C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\4LLS05ZO.gz
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\wC8AES4S.gz
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\blazor.boot.json
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\staticwebassets.build.json
@@ -2581,3 +2577,7 @@ C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\refint\BlazorAppProjectMovie.Client.dll
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\BlazorAppProjectMovie.Client.pdb
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\ref\BlazorAppProjectMovie.Client.dll
+C:\Users\robert.caraballo\source\repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\L0u+Uh+C.gz
+C:\Users\robert.caraballo\source\repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\xIg0h8+r.gz
+C:\Users\robert.caraballo\source\repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\jwPo6Udd.gz
+C:\Users\robert.caraballo\source\repos\BlazorProjectMovie3\BlazorAppProjectMovie\Client\obj\Debug\net6.0\build-gz\xAjmFMFh.gz

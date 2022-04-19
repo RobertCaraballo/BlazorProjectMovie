@@ -303,3 +303,7 @@ C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Server\obj\Debug\net6.0\BlazorAppProjectMovie.Server.pdb
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Server\obj\Debug\net6.0\BlazorAppProjectMovie.Server.genruntimeconfig.cache
 C:\Users\robert.caraballo\Source\Repos\BlazorProjectMovie3\BlazorAppProjectMovie\Server\obj\Debug\net6.0\ref\BlazorAppProjectMovie.Server.dll
+C:\Users\robert.caraballo\source\repos\BlazorProjectMovie3\BlazorAppProjectMovie\Server\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\robert.caraballo\source\repos\BlazorProjectMovie3\BlazorAppProjectMovie\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\robert.caraballo\source\repos\BlazorProjectMovie3\BlazorAppProjectMovie\Server\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\robert.caraballo\source\repos\BlazorProjectMovie3\BlazorAppProjectMovie\Server\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

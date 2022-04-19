@@ -1,5 +1,6 @@
 ﻿@page "/pelicula/{PeliculaID:int}"
 @page "/pelicula/{PeliculaID:int}/{NombrePelicula}"
+@inject IRepositorio repositorio
 
 
 <h3>VisualizarPelicula</h3>
@@ -8,8 +9,9 @@
     [Parameter] public int PeliculaID { get; set; }
     [Parameter] public string NombrePelicula { get; set; }
 
-    protected override void OnInitialized()
+    protected async override Task OnInitializedAsync()
     {
+        var responseHttp = await repositorio.Get<PeliculaVisualizarDTO>($"api/peliculas/{PeliculaID}");
         Console.WriteLine($"La pelicula extraida es {PeliculaID}");
     }
 }

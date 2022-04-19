@@ -9,24 +9,26 @@
 
 <ListadoGenerico Listado="Generos">
     <HayRegistrosCompeto>
-        <table class="table tabletable-striped">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>Nombre</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Generos)
-                {
+        <div>
+            <table class="table table-striped">
+                <thead>
                     <tr>
-                        <td> hola </td>
-                        <td>@item.Name</td>
+                        <th> x </th>
+                        <th>Nombre</th>
                     </tr>
-                }
+                </thead>
+                <tbody>
+                    @foreach (var item in Generos)
+                    {
+                        <tr>
+                            <td>  </td>
+                            <td> @item.Name </td>
+                        </tr>
+                    }
 
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+        </div>
     </HayRegistrosCompeto>
 </ListadoGenerico>
 

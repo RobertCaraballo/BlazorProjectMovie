@@ -1,4 +1,9 @@
 ﻿@using BlazorAppProjectMovie.Shared.Entidades
+@inject IRepositorio repositorio
+
+
+
+
 <h3>FormularioPeliculas</h3>
 
 <EditForm Model="pelicula" OnInvalidSubmit="OnDataAnnonationsValidated">
@@ -115,10 +120,14 @@
 
     private async Task<IEnumerable<Personas>> BuscarActores(string searchText)
     {
-        return new List<Personas>()
-        {
-            new Personas(){ Id=1, Nombre = "Sasuke Uchija", Foto = "https://naruto-wiki.com/wp-content/uploads/2021/09/Sasuke-Uchiha-4.png"}
-        };
+
+        var responseHttp = await repositorio.Get<List<Personas>>($"api/personas/buscar/{searchText}");
+        return responseHttp.Response;
+
+        //return new List<Personas>()
+        //{
+        //    new Personas(){ Id=1, Nombre = "Sasuke Uchija", Foto = "https://naruto-wiki.com/wp-content/uploads/2021/09/Sasuke-Uchiha-4.png"}
+        //};
     }
 
     private async Task OnDataAnnonationsValidated()
