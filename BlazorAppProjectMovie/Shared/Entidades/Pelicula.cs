@@ -13,6 +13,8 @@ namespace BlazorAppProjectMovie.Client.Shared.Entidades
         public bool EnCartelera { get; set; }
 
         public string Trailer { get; set; }
+
+
         
         [Required]
         public DateTime? Fecha_de_lazanmiento { get; set; }
