@@ -13,6 +13,7 @@ namespace BlazorAppProjectMovie.Client.Shared.Entidades
 
         public string Trailer { get; set; }
         
+
         public DateTime Fecha_de_lazanmiento { get; set; }
 
         public List<GeneroPelicula> GeneroPelicula { get; set; } = new List<GeneroPelicula>();

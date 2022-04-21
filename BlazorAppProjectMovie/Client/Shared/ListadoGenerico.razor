@@ -26,6 +26,7 @@ else if (Listado.Count == 0)
 
 else
 {
+
     // ****** Aqui hay un error, No carga la vista de las peliculas, tan solo el @HayRegistrosCompeto ********** //
     if (HayRegistros != null)
     {
@@ -33,17 +34,21 @@ else
         foreach (var item in Listado)
         {
             @thereAreDate(item)
-            ;
+
         }
+
+
+
+            
 
     }
     else
     {
         @HayRegistrosCompeto
-        ;
+
     }
 
-    @*    @foreach (var pelicula in peliculas)
+    @*     @foreach (var pelicula in peliculas)
         {
         <PeliculaIndividual Pelicula="pelicula" EliminarPelicula="Eliminar" />
         }*@
@@ -57,7 +62,6 @@ else
     [Parameter] public RenderFragment HayRegistrosCompeto { get; set; }
     [Parameter] public RenderFragment HayRegistros { get; set; }
     [Parameter] public RenderFragment NoHayRegistros { get; set; }
-
     [Parameter] public List<Titem> Listado { get; set; }
 
 
